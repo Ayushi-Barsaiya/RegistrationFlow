@@ -55,7 +55,6 @@ return (
              <div class="row" >
               <div class="loginBox col-sm-5" >
               <div class="col-3"/>
-              {/* <div id="mainSection"> */}
       <div class="col-7">
          <div class="blurb"><span>Welcome Back</span></div> 
          <div id="BlurbSmallCase">Sub title text goes here</div>
@@ -66,16 +65,15 @@ return (
           <div class="d-grid gap-2">
       <button id = "buttonLogin" class="btn" type="submit">Login</button>
           <div class="row">
-            <div class="form-check col-5" id="smallcase">
+            <div class="form-check col-5" id="smallcase1">
             <input class="form-check-input" type="checkbox" value="true" id="flexCheckChecked" checked/>
              <label class="form-check-label" for="flexCheckChecked"> Remember Password</label>
             </div>
             <div class="col-2"></div>
-            <div class="col-5 col-xs-12" id="smallcase" ><a href="">Forgot Password?</a></div>
+            <div class="col-5 col-xs-12" id="smallcase2" ><a href="">Forgot Password?</a></div>
           </div>
         </div>
       </div>
-      {/* </div> */}
       <div class="col-2"/>
      </div>
     <div class="col-sm-7">
