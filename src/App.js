@@ -1,5 +1,5 @@
 import './App.css';
-import myImg from "./images/myImg.PNG";
+import myImg1 from "./images/myImg1"
 import React, { useState } from "react"
 import api from "./components/api/post";
 
@@ -77,7 +77,7 @@ return (
       <div class="col-2"/>
      </div>
     <div class="col-sm-7">
-    <img src={myImg} class="d-none d-sm-inline" alt=""/>
+    <img src={myImg1} class="d-none d-sm-inline" alt=""/>
     
         
 

@@ -10,6 +10,7 @@
      /* align-items: center; */
      height: 1100px;
      font-size: x-small;
+     object-fit: fill;
   }
 }
 
@@ -29,15 +30,13 @@ color: crimson;
 
 .image img {
 width: 100%;
+
+
 display: flex;
 flex-direction: row;
 justify-content: center;
 align-items: center;
 }
-
-.image span{
-  font-family: 'Alfa Slab One', cursive;
-} 
 
 .loginBox {
   display: flex;
