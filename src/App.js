@@ -1,5 +1,5 @@
 import './App.css';
-import myImg1 from "./images/myImg1"
+import myImg1 from "./images/myImg1.png"
 import React, { useState } from "react"
 import api from "./components/api/post";
 
@@ -53,7 +53,7 @@ return (
          <div className="image">
           <div class="container-fluid" id="mainSection">
              <div class="row" >
-              <div class="loginBox col-sm-5" >
+              <div class="loginBox col-sm-4" >
               <div class="col-3"/>
       <div class="col-7">
          <div class="blurb"><span>Welcome Back</span></div> 
@@ -76,7 +76,7 @@ return (
       </div>
       <div class="col-2"/>
      </div>
-    <div class="col-sm-7">
+    <div class="col-sm-8">
     <img src={myImg1} class="d-none d-sm-inline" alt=""/>
     
         
